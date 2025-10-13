@@ -1,0 +1,110 @@
+Assignment-1
+
+1. Explain the difference between frontend, backend, and full-stack development with suitable real-world examples.
+Ans. Frontend development is everything you see and interact with on a website or app - it’s the “client-side” of web development. 
+Common tools and technologies:
+* Languages: HTML, CSS, JavaScript
+* Frameworks/Libraries: React
+Example:
+When you visit Amazon, all the visible parts - product listings, search bar, images, and that satisfying “Add to Cart” button - are the work of frontend developers.
+Backend development is what happens behind the scenes. It’s the “server-side” -where all the data is stored, processed, and managed. The backend makes sure the website runs smoothly, processes requests, and communicates with databases.
+Common tools and technologies:
+* Languages: Python, Java, Node.js
+* Databases: MySQL, MongoDB
+Example:
+When you click “Add to Cart” on Amazon, the backend quietly updates your cart, saves the information to your account, and ensures your data stays secure.
+A Full-Stack Developer is someone who works on both the frontend and backend. They understand how to design the user interface and how to make the server and database support it. Basically, they can build an entire web application from start to finish.
+Common tools and technologies:
+* A mix of frontend and backend tools - for example:
+React (frontend) + Node.js (backend) + MongoDB (database)
+* Popular stacks: MERN (MongoDB, Express, React, Node)
+Example:
+A full-stack developer could build a streaming platform like Netflix, taking care of both:
+* The interface you browse (frontend), and 
+* The system that streams the videos and manages your account (backend).
+
+2. Create a simple diagram showing how the client-server model works in web architecture.
+Ans. Image file
+
+3. Describe how a browser requests and displays a web page from a web server.
+Ans. When we type a website address (like www.google.com) into the browser, the following steps happen:
+Request Sent:
+The browser sends a request to the web server asking for the website’s data. This request travels through the internet using the HTTP or HTTPS protocol.
+Server Response:
+The web server receives the request, finds the correct web page, and sends it back to the browser as a response.
+Loading the Page:
+The browser reads the HTML first, then downloads any linked CSS (for design) and JavaScript (for functionality).
+Rendering the Page:
+Finally, the browser combines all this information and displays the web page on your screen - just the way it was designed.
+
+
+4. Identify and list the tools required to set up a web development environment. Explain the purpose of each.
+Ans. There are multiple tools required to set up a web development environment:
+* Code Editor / IDE: Used to write, edit, and organize web development code efficiently. (VS Code)
+* Web Browser: Displays and tests web pages while offering developer tools for debugging. (Chrome)
+* Web Server: Hosts and delivers web pages or applications to clients over the internet. (NodeJs)
+* Database: Stores, retrieves, and manages data used by web applications. (MongoDB)
+* Version Control System: Tracks code changes and enables collaboration among developers. (Git or GitHub)
+* Package Manager: Installs and manages libraries or dependencies needed for development. (npm)
+* Frameworks / Libraries: Provide pre-built code structures to speed up web development. (React)
+* Testing Tools: Check and ensure that the web application functions correctly. (Selenium)
+* Deployment Tools / Platforms: Publish and host web applications for online access. (Vercel or Netlify)
+
+5. Explain what a web server is and give examples of commonly used servers.
+Ans. A web server is a computer system or software that’s responsible for storing, processing, and delivering web pages to users when they open a website in their browser.
+In simple terms, whenever you type a website address like www.google.com, your browser sends a request to the web server where that site’s files are stored. The server then responds by sending back everything needed — like the HTML, CSS, JavaScript, and images — so your browser can display the page.
+ Main Functions of a Web Server
+* Stores website files: Keeps all the files that make up a website, such as HTML pages, images, and scripts.
+* Processes client requests: Listens for incoming requests from browsers using HTTP or HTTPS.
+* Delivers web pages: Sends the requested files back to the user’s browser.
+* Manages traffic: Handles multiple requests from different users at the same time without crashing or slowing down.
+Some commonly used web servers are: Apache HTTP Server, Nginx.
+
+6. Define the roles of a frontend developer, backend developer, and database administrator in a project.
+Ans. Frontend Developer: Builds and styles the user interface using HTML, CSS, and JavaScript, ensuring the site is interactive and user-friendly.
+Backend Developer: Manages server-side logic, APIs, and data processing, enabling functionality behind the scenes.
+Database Administrator (DBA): Maintains, secures, and optimizes the database, ensuring reliable storage and retrieval of application data.
+
+7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a screenshot of the setup.
+Ans. Image file
+
+8. Explain the difference between static and dynamic websites. Provide an example of each.
+Ans. 
+Static Website
+A static website consists of fixed web pages with content that does not change unless manually updated by the developer.
+Key Features:
+* Simple and fast to load.
+* Content is the same for every visitor.
+* Usually built with HTML, CSS, and maybe some JavaScript.
+Example:
+A personal portfolio website or a company’s “About Us” page that rarely changes.
+
+Dynamic Website
+A dynamic website generates content on-the-fly, often based on user interactions, preferences, or database information.
+Key Features:
+* Content can change for each user or over time.
+* Uses server-side languages like PHP, Python, Node.js, or frameworks like Django, Laravel.
+* Often connected to a database.
+Example:
+Facebook, Amazon, or any e-commerce site where content updates according to user actions, like login, shopping cart, or personalized recommendations.
+
+9. Research and list five web browsers. Explain how rendering engines differ between them.
+Ans:
+*Google Chrome
+Blink
+Fast, modern, used in Chromium-based browsers like Edge and Opera; focuses on performance and web standards.
+*Mozilla Firefox
+Gecko
+Open-source engine; emphasizes standards compliance and security.
+*Microsoft Edge
+Blink (since 2020)
+Originally used EdgeHTML, now Chromium-based with Blink; compatible with Chrome extensions.
+*Safari
+WebKit
+Optimized for Apple devices; efficient on macOS/iOS but stricter on web standards in some cases.
+*Opera
+Blink
+Chromium-based, similar to Chrome; includes unique features like built-in VPN and ad blocker.
+
+10. Draw a labeled diagram showing the basic web architecture flow — client, server, database, and APIs.
+Ans. Image File
